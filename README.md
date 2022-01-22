@@ -38,7 +38,7 @@ Additional features can be extracted/estimated from these fields, including:
 We plan to use the following for the project:
 - Pandas for data cleaning
 - SQL for our database
-- Python Machine Learing Classifier Model
+- Python (SciKitLearn- Machine Learing Classifier Model
 - Tableau for dashboard presentation
 
 ## Challenges
