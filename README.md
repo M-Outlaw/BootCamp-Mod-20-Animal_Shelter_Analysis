@@ -1,9 +1,32 @@
 # BootCamp-Mod-20-Final_Project
 
 ## Project Outline
-We will be analyzing animal shelter intake and outake data from Austin, TX with the initial goal to predict the likelihood that a dog will be adopted.
+We will be analyzing animal shelter intake and outake data from Austin, TX with the initial goal to predict the outcome for a dog who enters the shelter.
 
 ## Dataset
+The dataset we plan to use includes ~76000 encounters involving dogs at the Austin Animal Center (Austin, TX) from 2013 through the present. 
+Data is publicly available through the Austin open data portal. Data is available on [intakes](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm) and [outcomes](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238). 
+Possible outcomes include:
+- adoption
+- return to owner
+- euthanasia
+- transfer
+
+Intake fields include:
+- date of encounter
+- type of encounter (stray, owner surrender, public assist, etc)
+- sex 
+- age
+- breed
+- color
+
+Additional features can be extracted/estimated from these fields, including:
+- spay/neuter status
+- size
+- breed type
+- breed restriction status
+- length of stay
+- prior encounters
 
 ## Team Members
 - Michelle Outlaw
