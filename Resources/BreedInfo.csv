@@ -48,15 +48,15 @@ Cardigan Welsh Corgi,Cardigan Welsh Corgi,herding,small
 Cavalier King Charles Spaniel,Cavalier Span,toy,small
 Cesky Terrier,,terrier,small
 Chesapeake Bay Retriever,Chesa Bay Retr,sporting,large
-Chihuahua,,toy,small
+Chihuahua,Chihuahua Shorthair,toy,small
 Chinese Crested,Chinese Crested,toy,small
 Chinese Shar Pei,Chinese Sharpei,non-sporting,medium
 Chow Chow,Chow Chow,non-sporting,medium
 Clumber Spaniel,Clumber Spaniel,sporting,medium
 Cocker Spaniel,Cocker Spaniel,sporting,small
-Collie,,herding,large
+Collie,Collie Rough,herding,large
 Curly Coated Retriever,,sporting,large
-Dachshund,,hound,small
+Dachshund,Dachshund Stan,hound,small
 Dalmatian,Dalmatian,non-sporting,medium
 Dandie Dinmont Terrier,Dandie Dinmont,terrier,small
 Doberman Pinscher,Doberman Pinch,working,large
@@ -137,7 +137,7 @@ Pyrenean Shepherd,,herding,medium
 Redbone Coonhound,Redbone Hound,hound,large
 Rhodesian Ridgeback,Rhod Ridgeback,hound,large
 Rottweiler,Rottweiler,working,large
-Saint Bernard,,working,large
+Saint Bernard,St. Bernard Rough Coat,working,large
 Saluki,Saluki,hound,medium
 Samoyed,,working,medium
 Schipperke,Schipperke,non-sporting,small
@@ -201,3 +201,9 @@ Poodle (Toy),Miniature Poodle,toy,small
 Belgian Turveren,Dutch Shepherd,herding,large
 Pointer,English Pointer,sporting,large
 Bearded Collie,Dutch Sheepdog,herding,medium
+Vizsla,Wirehaired Vizsla,sporting,medium
+Chihuahua,Chihuahua Longhair,toy,small
+Dachshund,Dachshund Longhair,hound,small
+Dachshund,Dachshund Wirehair,hound,small
+Collie,Collie Smooth,herding,large
+Saint Bernard,St. Bernard Smooth Coat,working,large
