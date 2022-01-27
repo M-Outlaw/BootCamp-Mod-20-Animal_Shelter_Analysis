@@ -3,31 +3,42 @@ Affenpinscher,Affenpinscher,toy,small
 Afghan Hound,Afghan Hound,hound,large
 Airedale Terrier,Airedale Terrier,terrier,medium
 Akita,Akita,working,large
+Alaskan Eskimo Dog,Klee Klai,non-sporting,small
 Alaskan Malamute,Alaskan Malamute,working,large
+American Bulldog,American Bulldog,pit bull,large
 American English Coonhound,English Coonhound,hound,large
 American Eskimo Dog,American Eskimo,non-sporting,small
 American Foxhound,American Foxhound,hound,medium
+American Pit Bull Terrier,American Pit Bull Terrier,pit bull,large
 American Staffordshire Terrier,American Staffordshire Terrier,terrier,medium
 American Water Spaniel,,sporting,medium
+Anatolian Shepherd Dog,Akbash,working,large
 Anatolian Shepherd Dog,Anatol Shepherd,working,large
 Australian Cattle Dog,Australian Cattle Dog,herding,medium
+Australian Cattle Dog,Australian Kelpie,herding,medium
+Australian Cattle Dog,Queensland Heeler,herding,medium
 Australian Shepherd,Australian Shepherd,herding,medium
 Australian Terrier,Australian Terrier,terrier,small
 Basenji,Basenji,hound,medium
 Basset Hound,Basset Hound,hound,small
 Beagle,Beagle,hound,small
 Bearded Collie,Bearded Collie,herding,medium
+Bearded Collie,Dutch Sheepdog,herding,medium
 Beauceron,Beauceron,herding,large
 Bedlington Terrier,Bedlington Terr,terrier,small
 Belgian Malinois,Belgian Malinois,herding,large
 Belgian Sheepdog,Belgian Sheepdog,herding,large
 Belgian Tervuren,Belgian Tervuren,herding,large
+Belgian Turveren,Dutch Shepherd,herding,large
 Bernese Mountain Dog,Bernese Mountain Dog,working,large
 Bichon Frise,Bichon Frise,non-sporting,small
 Black and Tan Coonhound,Black/Tan Coonhound,hound,large
+Black Mouth Cur,Black Mouth Cur,cur,medium
 Black Russian Terrier,,working,large
 Bloodhound,Bloodhound,hound,large
+Blue Lacy,Blue Lacy,cur,medium
 Bluetick Coonhound,Bluetick Hound,hound,large
+Boerboel,Boerboel,working,large
 Border Collie,Border Collie,herding,medium
 Border Terrier,Border Terrier,terrier,small
 Borzoi,,hound,large
@@ -45,27 +56,38 @@ Cairn Terrier,Cairn Terrier,terrier,small
 Canaan Dog,Canaan Dog,herding,medium
 Cane Corso,Cane Corso,working,large
 Cardigan Welsh Corgi,Cardigan Welsh Corgi,herding,small
+Carolina Dog,Carolina Dog,misc,medium
+Catahoula,Catahoula,cur,large
 Cavalier King Charles Spaniel,Cavalier Span,toy,small
 Cesky Terrier,,terrier,small
 Chesapeake Bay Retriever,Chesa Bay Retr,sporting,large
 Chihuahua,Chihuahua Shorthair,toy,small
+Chihuahua,Chihuahua Longhair,toy,small
 Chinese Crested,Chinese Crested,toy,small
 Chinese Shar Pei,Chinese Sharpei,non-sporting,medium
 Chow Chow,Chow Chow,non-sporting,medium
 Clumber Spaniel,Clumber Spaniel,sporting,medium
 Cocker Spaniel,Cocker Spaniel,sporting,small
 Collie,Collie Rough,herding,large
+Collie,Collie Smooth,herding,large
+Coton de Tulear,Coton de Tulear,non-sporting,small
 Curly Coated Retriever,,sporting,large
 Dachshund,Dachshund Stan,hound,small
+Dachshund,Dachshund Longhair,hound,small
+Dachshund,Dachshund Wirehair,hound,small
 Dalmatian,Dalmatian,non-sporting,medium
 Dandie Dinmont Terrier,Dandie Dinmont,terrier,small
 Doberman Pinscher,Doberman Pinch,working,large
+Dogue de Bordeaux,Dogue de Bordeaux,working,large
 English Cocker Spaniel,Cocker Span,sporting,medium
+English Cocker Spaniel,English Cocker Spaniel,sporting,small
 English Foxhound,English Foxhound,hound,large
+English Foxhound,Swiss Hound,hound,medium
 English Setter,English Setter,sporting,large
 English Springer Spaniel,English Springer Spaniel,sporting,medium
 English Toy Spaniel,Eng Toy Spaniel,toy,small
 Entlebucher Mountain Dog,Entlebucher,herding,medium
+Feist,Feist,cur,medium
 Field Spaniel,,sporting,medium
 Finnish Lapphund,,herding,medium
 Finnish Spitz,Finnish Spitz,non-sporting,medium
@@ -94,6 +116,7 @@ Irish Water Spaniel,,sporting,medium
 Irish Wolfhound,Irish Wolfhound,hound,large
 Italian Greyhound,Italian Greyhound,toy,small
 Japanese Chin,,toy,small
+Jindo,Jindo,misc,medium
 Keeshond,Keeshond,non-sporting,medium
 Kerry Blue Terrier,,terrier,medium
 Komondor,,working,large
@@ -125,19 +148,27 @@ Pekingese,Pekingese,toy,small
 Pembroke Welsh Corgi,Pembroke Welsh Corgi,herding,small
 Petit Basset Griffon Vendeen,Pbgv,hound,small
 Pharaoh Hound,Pharaoh Hound,hound,medium
+Pit Bull,Pit Bull,pit bull,large
 Plott,Plott Hound,hound,medium
 Pointer,Pointer,sporting,large
+Pointer,English Pointer,sporting,large
 Polish Lowland Sheepdog,,herding,medium
 Pomeranian,Pomeranian,toy,small
 Poodle,Standard Poodle,non-sporting,medium
+Poodle (Toy),Toy Poodle,toy,small
+Poodle (Toy),Miniature Poodle,toy,small
 Portuguese Water Dog,,working,medium
 Pug,Pug,toy,medium
 Puli,,herding,medium
+Presa Canario,Presa Canario,working,large
 Pyrenean Shepherd,,herding,medium
+Rat Terrier,Rat Terrier,terrier,small
 Redbone Coonhound,Redbone Hound,hound,large
 Rhodesian Ridgeback,Rhod Ridgeback,hound,large
 Rottweiler,Rottweiler,working,large
+Russell Terrier,Jack Russell Terrier,terrier,small
 Saint Bernard,St. Bernard Rough Coat,working,large
+Saint Bernard,St. Bernard Smooth Coat,working,large
 Saluki,Saluki,hound,medium
 Samoyed,,working,medium
 Schipperke,Schipperke,non-sporting,small
@@ -148,12 +179,14 @@ Shetland Sheepdog,Shetland Sheepdog,herding,small
 Shiba Inu,Shiba Inu,non-sporting,small
 Shih Tzu,Shih Tzu,toy,small
 Siberian Husky,Siberian Husky,working,medium
+Siberian Husky,Alaskan Husky,working,medium
 Silky Terrier,Silky Terrier,toy,small
 Skye Terrier,Skye Terrier,terrier,small
 Smooth Fox Terrier,Smooth Fox Terrier,terrier,small
 Soft-Coated Wheaten Terrier,Soft-Coated Wheaten Terrier,terrier,medium
-Spinone Italiano,,sporting,large
+Spinone Italiano,Spinone Italiano,sporting,large
 Staffordshire Bull Terrier,Staffordshire,terrier,medium
+Standard Schnauzer,Standard Schnauzer,working,medium
 Standard Schnauzer,Standard Schnauzer,working,medium
 Sussex Spaniel,,sporting,small
 Swedish Vallhund,Swedish Vallhund,herding,small
@@ -161,7 +194,10 @@ Tibetan Mastiff,Tibetan Mastiff,working,large
 Tibetan Spaniel,Tibetan Spaniel,non-sporting,small
 Tibetan Terrier,Tibetan Terrier,non-sporting,small
 Toy Fox Terrier,Toy Fox Terrier,toy,small
+Treeing Cur,Treeing Cur,cur,medium
+Treeing Walker Coonhound,Treeing Walker Coonhound,hound,medium
 Vizsla,Vizsla,sporting,medium
+Vizsla,Wirehaired Vizsla,sporting,medium
 Weimaraner,Weimaraner,sporting,large
 Welsh Springer Spaniel,Welsh Springer Spaniel,sporting,medium
 Welsh Terrier,Welsh Terrier,terrier,small
@@ -169,41 +205,15 @@ West Highland White Terrier,West Highland White Terrier,terrier,small
 Whippet,Whippet,hound,medium
 Wire Fox Terrier,Wire Hair Fox Terrier,terrier,small
 Wirehaired Pointing Griffon,,sporting,medium
+Wolf Hybrid,Wolf Hybrid,misc,large
 Xoloitzcuintli,Mexican Hairless,non-sporting,medium
 Yorkshire Terrier,Yorkshire Terrier,toy,small
-Pit Bull,Pit Bull,pit bull,large
-American Pit Bull Terrier,American Pit Bull Terrier,pit bull,large
-American Bulldog,American Bulldog,pit bull,large
-Jindo,Jindo,misc,medium
-Wolf Hybrid,Wolf Hybrid,misc,large
-Catahoula,Catahoula,cur,large
-Black Mouth Cur,Black Mouth Cur,cur,medium
-Treeing Cur,Treeing Cur,cur,medium
-Blue Lacy,Blue Lacy,cur,medium
-Carolina Dog,Carolina Dog,misc,medium
-Feist,Feist,misc,medium
-Rat Terrier,Rat Terrier,terrier,small
-Russell Terrier,Jack Russell Terrier,terrier,small
-Coton de Tulear,Coton de Tulear,non-sporting,small
-Poodle (Toy),Toy Poodle,toy,small
-Standard Schnauzer,Standard Schnauzer,working,medium
-Dogue de Bordeaux,Dogue de Bordeaux,working,large
-Boerboel,Boerboel,working,large
-Treeing Walker Coonhound,Treeing Walker Coonhound,hound,medium
-English Cocker Spaniel,English Cocker Spaniel,sporting,small
-Siberian Husky,Alaskan Husky,working,medium
-Anatol Shepherd,Akbash,working,large
-Australian Cattle Dog,Australian Kelpie,herding,medium
-Australian Cattle Dog,Queensland Heeler,herding,medium
-English Foxhound,Swiss Hound,hound,medium
-Alaskan Eskimo Dog,Klee Klai,non-sporting,small
-Poodle (Toy),Miniature Poodle,toy,small
-Belgian Turveren,Dutch Shepherd,herding,large
-Pointer,English Pointer,sporting,large
-Bearded Collie,Dutch Sheepdog,herding,medium
-Vizsla,Wirehaired Vizsla,sporting,medium
-Chihuahua,Chihuahua Longhair,toy,small
-Dachshund,Dachshund Longhair,hound,small
-Dachshund,Dachshund Wirehair,hound,small
-Collie,Collie Smooth,herding,large
-Saint Bernard,St. Bernard Smooth Coat,working,large
+English Bulldog,Old English Bulldog,non-working,medium
+Dogo Argentino,Dogo Argentino,working,large
+Portuguese Podengo Pequeno,Podengo Pequeno,hound,small
+Patterdale Terrier,Patterdale Terr,terrier,small
+Berger Picard,Picardy Sheepdog,herding,medium
+Newfoundland,Landseer,working,large
+English Shepherd,English Shepherd,herding,medium
+Treeing Tenessee Brindle,Treeing Tenessee Brindle,cur,medium
+Anatolian Shepherd Dog,Kangal,working,large
