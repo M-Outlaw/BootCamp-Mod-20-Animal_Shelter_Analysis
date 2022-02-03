@@ -28,6 +28,10 @@ Additional features can be extracted/estimated from these fields, including:
 - length of stay
 - prior encounters
 
+## Machine Learning Model
+
+## Database Integration
+
 ## Team Members
 - Michelle Outlaw
 - Anna Wiste
