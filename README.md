@@ -62,8 +62,8 @@ Additional features can be extracted/estimated from these fields, including:
 
 ## Presentation/Dashboard
 
-[Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
-Link to Draft Dashboard: [Project Storyboard](https://public.tableau.com/views/MLAnimalShelterDBStoryboard/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- [Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
+- Link to Draft Dashboard: [Project Storyboard](https://public.tableau.com/views/MLAnimalShelterDBStoryboard/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Challenges
 
