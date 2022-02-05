@@ -45,6 +45,16 @@ Additional features can be extracted/estimated from these fields, including:
 - prior encounters
 
 ## Data Cleaning
+- The biggest component of the data cleaning was to merge the intake and outcome files into one dataframe, once both files were filtered for only dogs.
+  * Merging the files required ordering and filtering to make sure that the intake date lined up with the correct outgoing date since many of the dogs went through the shelter multiple times
+- Other Main Cleaning Components of Cleaning:
+  * Dog Age
+    - Consolidating case differences for different string inputs
+    - Converting all strings to numbers where values given as days, weeks, or months is converted to a fraction of a year
+  * Dog Breed
+    - Removing notations of Mix to be able to compare the breeds. 
+    - Consolidating 
+  * Dog color
 
 ## Database Integration
 
