@@ -62,8 +62,7 @@ Additional features can be extracted/estimated from these fields, including:
 
 ## Presentation/Dashboard
 
-Google slides
-https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing
+[Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
 
 ## Challenges
 
