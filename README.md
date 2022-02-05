@@ -33,11 +33,11 @@
 - Then, the dataframes were merged by Animal ID
   * The dogs that only entered and exited the shelter once are automatically perfectly matched up.
   * The dogs that entered and exited the shelter more than once created extra lines when merged.
-    -- When merged, a row for every combination of entered time and outgoing time possible is created.
+    - When merged, a row for every combination of entered time and outgoing time possible is created.
 - To line up the outgoing times to the correct entering times:
   * First, the merged dataframe was filtered to remove any rows where the outgoing times are before the entering times since that is not possible.
   * Then, a Drop column was added to mark which rows should be dropped and which should not be dropped.
-    -- Going row by row, if the animal Id was the same as the animal Id of the row before and the entering time is the same as the row before, only keep the row with the earliest outgoing time.
+    - Going row by row, if the animal Id was the same as the animal Id of the row before and the entering time is the same as the row before, only keep the row with the earliest outgoing time.
   * With all of the rows labeled, drop any row that has Yes in the Drop column.
 
 #### Dog Breeds
