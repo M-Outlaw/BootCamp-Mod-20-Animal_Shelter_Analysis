@@ -63,6 +63,9 @@ Additional features can be extracted/estimated from these fields, including:
     - Mapping each breed to whether it is on the list of which breeds are not allowed when renting in Austin.
 
 ## Database Integration
+#### •	Connect Pandas and SQL
+
+Created a new database and used the built-in “to_sql ()” method in Pandas to create tables for Austin Animal Center (AAC) data (AAC_Intakes, AAC_Outcomes, BreedInfo, BreedRestrictionAustin, and CleanedData).
 
 ## Machine Learning Model
 
