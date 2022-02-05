@@ -47,20 +47,14 @@ Additional features can be extracted/estimated from these fields, including:
 ## Data Cleaning
 - The biggest component of the data cleaning was to merge the intake and outcome files into one dataframe, once both files were filtered for only dogs.
   * Merging the files required ordering and filtering to make sure that the intake date lined up with the correct outgoing date since many of the dogs went through the shelter multiple times
-- Other Main Components of Cleaning:
+- Other Main Cleaning Components of Cleaning:
   * Dog Age
     - Consolidating case differences for different string inputs
     - Converting all strings to numbers where values given as days, weeks, or months is converted to a fraction of a year
   * Dog Breed
-    - Removing notations of Mix to be able to compare the breeds
-    - Consolidating when the same breed is listed twice
+    - Removing notations of Mix to be able to compare the breeds. 
+    - Consolidating 
   * Dog color
-    - Alphabetizing the color column to match when the dog is the same color but in a different order, such as black/white and white/black since those dogs have the same coloring
-    - Reducing the categories down from 383 to 17
-  * Breed Group and Size
-    - Mapping each breed to the breed’s group and size according to the American Kennel Club records
-  * Austin Breed Restrictions
-    - Mapping each breed to whether it is on the list of which breeds are not allowed when renting in Austin.
 
 ## Database Integration
 
@@ -69,6 +63,7 @@ Additional features can be extracted/estimated from these fields, including:
 ## Presentation/Dashboard
 
 [Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
+Link to Draft Dashboard: [Project Storyboard](https://public.tableau.com/views/MLAnimalShelterDBStoryboard/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 ## Challenges
 
