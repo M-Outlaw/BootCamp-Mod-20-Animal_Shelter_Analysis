@@ -93,7 +93,7 @@ Both models had accuracy scores of ~0.6.
 ## Presentation/Dashboard
 
 - [Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
-- [Shelter Dog Dashboard](https://public.tableau.com/app/profile/jordan.thomas5085/viz/ShelterDogDashboard/Dashboard2?publish=yes)
+- [Dashboard](https://public.tableau.com/app/profile/jordan.thomas5085/viz/LengthofStayDashboard_16447681694690/LOSDashboard?publish=yes)
 
 ## Challenges
 
