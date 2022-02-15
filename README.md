@@ -31,6 +31,7 @@ Possible outcomes include:
 Intake fields include:
 - date of encounter
 - type of encounter (stray, owner surrender, public assist, etc)
+- condition at intake
 - sex 
 - age
 - breed
@@ -75,27 +76,28 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
   
 - We explored two classification problems from the data: Outcome of the encounter, and length of stay in the shelter, ultimately choosing length of stay.
   * Prolonged Stays in the shelter are defined as those lasting 13 days or more. This point marks the 75th percentile of length of stay, and the beginning of the tail of the distribution.
-![length of stay dsitribution from Google Slides](Resources/Distribution.png)
+![length of stay distribution from Google Slides](Resources/Distribution.png)
 
-- Tested 3 algorithms
-  * Random Forest
-  * Bernoulli Naive Bayes
-  * Gradient Boosting Classifier
+- Tested 3 algorithms (accuracy, precision for normal stay, recall for prolonged stay)
+  * Random Forest (acc: 0.73, prec: 0.78, rec: 0.30)
+  * Bernoulli Naive Bayes (acc: 0.70, prec: 0.79, rec: 0.39)
+  * Gradient Boosting Classifier (acc: 0.76, prec: 0.78, rec: 0.23)
  
-- Overall accuracies 
+- Resampling using SMOTE and SMOTTEEN: Outcome is not rare enough for resampling to be necessary, but tried to boost recall for the minority class. While recall for the minority class is improved, it comes at great cost to other performance metrics, and overall results in substantially reduced accuracy.
 
+- Other feature selection/extraction techniques: There were 62 features, derived from 7 intake fields. We looked at options to reduce that number without losing information. None of these yielded any improvement in model performance.
+  * Consolidating rare observations for categorical variables with many options. Much of this was done in preprocessing with regards to breed and color. During the tuning process we tried grouping rare conditions and intake types. 
+  * Subset of features based on univariate signal and/or a priori hypothesis
+  * Principal components analysis. Thirty four principal components were required to account for 90% of the variance, and model performance was poorer. 
 
+- The goal of this model predicting long stays is to provide shelter staff with insight into which dogs are at risk of lengthy stays, so that interventions designed to move dogs out of the shelter faster can be focused on the dogs most likely to benefit.
 
-11. We again used SMOTE and SMOTEEN to test whether resampling could improve performance of the model. While recall for the minority class is improved, it comes at great cost to other performance metrics, and overall substantially reduced accuracy.
+- We have chosen the Naive Bayes model, without resampling, as our final model. While the overall accuracy is slightly lower than Random Forest or Gradient Boosting Classifier, the Naive Bayes model results in high precision for the majority class (0.79), and highest recall for the minority class without resampling (0.39). These are the two metrics which we prioritize.
+  * High precision for the majority class provides confidence that those encounters predicted to be of normal length will be. Interventions can then be focused on dogs at risk. 
+  * Higher recall for the minority class indicates that the prediction is capturing more of the true cases. The recall with Naive Bayes was relatively low, at 0.39, but this was a substantial improvement over the other two models.
 
-12. If deployed, the goal of the model predicting long stays is to provide shelter staff with insight into which dogs are at risk of lengthy stays, so that interventions designed to move dogs out of the shelter faster can be focused on the dogs most likely to benefit.
-
-13. We have chosen the Naive Bayes model, without resampling, as our final model. While the overall accuracy is slightly lower than Random Forest or Gradient Boosting Classifier, the Naive Bayes model results in the highest precision for the majority class (0.79), and highest recall for the minority class (0.39). These are the two metrics which we prioritize.
-High precision for the majority class provides confidence that those encounters predicted to be of normal length will be. Interventions can then be focused on dogs at risk. 
-A higher recall for the majority class indicates that the prediction is capturing more of the true cases. The recall with Naive Bayes was relatively low, at 0.39, but this was an improvement over the other two models.
-
-The model has provided a reduced number of at risk encounters, allowing more efficient use of resources on interventions.
-An additional attractive element of Naive Bayes in this application is its relative ease of interpretation.
+- The model has provided a reduced number of at risk encounters, allowing more efficient use of resources on interventions.
+- An additional attractive element of Naive Bayes in this application is its relative ease of interpretation.
 
 <h3 align="center"><b>Naive Bayes Model</b></h3>
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-20-Animal_Shelter_Analysis/blob/main/Graphics/NB_Confusion_Matrix.png" width="283" height="150"/>&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-20-Animal_Shelter_Analysis/blob/main/Graphics/NB_Classification_Report.png" width="459" height="223"/></p>
