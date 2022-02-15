@@ -68,34 +68,23 @@ Additional features can be extracted/estimated from these fields, including:
 Created a new database and used the built-in “to_sql ()” method in Pandas to create tables for Austin Animal Center (AAC) data (AAC_Intakes, AAC_Outcomes, BreedInfo, BreedRestrictionAustin, and CleanedData).
 
 ## Machine Learning Model
-1. After initial preprocessing, some additional processing was required to prepare the features. All features in our dataset are categorical. Therefore, we did not scale the data, since all features will be on the same scale already (0,1).
-- All existing binary features were recoded to 0,1 (sex, spay/neuter, mixed breed, breed restrictions, prior encounters).
-- All categorical features with more than two values were dummy coded. (Encounter type, condition at intake, age category, month, breed type, size and color)
+- After initial preprocessing, some additional processing was required to prepare the features. 
+  * Binary features were recoded to 0,1 (sex, spay/neuter, mixed breed, breed restrictions, prior encounters).
+  * Categorical features with more than two values were dummy coded. (Encounter type, condition at intake, age category, month, breed type, size and color). Rare instances of intake condition were combined.
+  * We did not scale the data, since all features are binary and thus on the same scale already (0,1).
+  
+- We explored two classification problems from the data: Outcome of the encounter, and length of stay in the shelter, ultimately choosing length of stay.
+  * Prolonged Stays in the shelter are defined as those lasting 13 days or more. This point marks the 75th percentile of length of stay, and the beginning of the tail of the distribution.
+![length of stay dsitribution from Google Slides](Resources/Distribution.png)
 
-2. Two alternate outcomes were generated from the existing data. 
-- The 5 primary categories for outcome were consolidated into 3: Adoption/Transfer, Return to Owner, and Death.
-- A binary outcome was generated based on length of stay, splitting the data at the 75th percentile. 
+- Tested 3 algorithms
+  * Random Forest
+  * Bernoulli Naive Bayes
+  * Gradient Boosting Classifier
+ 
+- Overall accuracies 
 
-3. Data was split into training and testing sets using the default 75/25 split with scikit learn.
 
-4. Because all data are binary, we did not amploy any scaler. 
-
-5. Two models were tested with the 5 category outcome: Random Forest, and Gradient Boosting Classifier.
-Both models had accuracy scores of ~0.6. 
-
-      Although we had anticipated a distinction between adoptions and transfer, examining the confusion matrix, both models had particular issues with classifying transfers as adoptions. 
-
-      Considering that our multiclass outcome is challenging for modeling, we decided to consolidate the five outcomes into three, combining adoptions with transfers, and euthanasia with died. 
-
-6. Accuracy scores for the three class outcome improved to 0.76 and 0.78, respectively, but recall values for the rare outcome (Death) were very low. 
-
-7. We then did oversampling with SMOTE (scikit-learn), and then repeated both models. Overall accuracy scores were slightly lower, but recall for the rare outcome did increase. 
-
-8. For real world application, the models predicting outcome would need to be significantly better than we found. At this point we changed our focus to length of stay at the shelter. 
-
-9. We chose to define prolonged stay at the shelter as 13 days and longer. This cut point leads to the longest 25% of encounters being defined as cases. It is also a logical cutpoint based on the distribution of length of stay, marking the beginning of the very long tail of the distribution. 
-
-10. As before, we tested Random Forest and Gradient Boosting Classifier, but also added Naive Bayes. Because all of our data are binary, we have used the Bernoulli application.
 
 11. We again used SMOTE and SMOTEEN to test whether resampling could improve performance of the model. While recall for the minority class is improved, it comes at great cost to other performance metrics, and overall substantially reduced accuracy.
 
