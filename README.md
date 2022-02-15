@@ -119,7 +119,7 @@ The dashboard is intended to be used to supplement the machine learning model to
 
 - [Dashboard](https://public.tableau.com/app/profile/jordan.thomas5085/viz/LengthofStayDashboard_16447681694690/LOSDashboard?publish=yes)
 
-## Challenges
-
 ## Future Directions
 - Look at the change that occured with Covid/ Compare pre and post Covid
+- Include all shelter animal types in the analysis
+- deploy app to run the model
