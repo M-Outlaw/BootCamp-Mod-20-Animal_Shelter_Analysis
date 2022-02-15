@@ -3,6 +3,8 @@
 ## Project Outline
 We will be analyzing animal shelter intake and outake data from Austin, TX with the initial goal to predict the outcome for a dog who enters the shelter.
 
+Our project is to analyze intake and outcome data from the Austin Texas Animal Center to identify, at intake, encounters at risk for resulting in prolonged length of stays for dogs at the shelter.
+
 ## Team Members
 - [Michelle Outlaw](https://github.com/M-Outlaw)
 - [RoseAnne Amimo](https://github.com/01ramimo)
@@ -20,7 +22,7 @@ We plan to use the following for the project:
 We anticipate that there will be some challenges with cleaning and transforming the data to make it useable for our model. While we do have a large dataset, it is still limited to one city in the US so we do not have a representation of the entire country. Despite this we feel the data is strong enough to make meaningful predictions. Through the evolution of the project it is likely that our initial question that we are asking of the data might change, thus changing the direction of our project. Finally there will be some challenges in ensuring we interpret and present the data in a way that provides value to our identified stakeholders.
 
 ## Dataset
-The dataset we plan to use includes ~76000 encounters involving dogs at the Austin Animal Center (Austin, TX) from 2013 through the present. 
+The dataset we plan to use includes ~76000 encounters involving dogs at the Austin Animal Center (Austin, TX) from 2013 to January 2022. 
 Data is publicly available through the Austin open data portal. Data is available on [intakes](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Intakes/wter-evkm) and [outcomes](https://data.austintexas.gov/Health-and-Community-Services/Austin-Animal-Center-Outcomes/9t4d-g238). 
 Possible outcomes include:
 - adoption
@@ -77,6 +79,7 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
 - We explored two classification problems from the data: Outcome of the encounter, and length of stay in the shelter, ultimately choosing length of stay.
   * Prolonged Stays in the shelter are defined as those lasting 13 days or more. This point marks the 75th percentile of length of stay, and the beginning of the tail of the distribution.
 ![length of stay distribution from Google Slides](Resources/Distribution.png)
+  * We included only encounters where the dog left the shelter, either to their previous home, a new one, or transfer to a rescue organization.
 
 - Tested 3 algorithms (accuracy, precision for normal stay, recall for prolonged stay)
   * Random Forest (acc: 0.73, prec: 0.78, rec: 0.30)
