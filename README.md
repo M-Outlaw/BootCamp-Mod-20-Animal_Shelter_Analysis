@@ -4,10 +4,10 @@
 We will be analyzing animal shelter intake and outake data from Austin, TX with the initial goal to predict the outcome for a dog who enters the shelter.
 
 ## Team Members
-- Michelle Outlaw
-- Anna Wiste
-- RoseAnne Amimo
-- Jordan Thomas
+- [Michelle Outlaw](https://github.com/M-Outlaw)
+- [RoseAnne Amimo](https://github.com/01ramimo)
+- [Anna Wiste](https://github.com/annawiste)
+- [Jordan Thomas](https://github.com/Jthomas856)
 
 ## Tools and Techniques
 We plan to use the following for the project:
@@ -113,7 +113,10 @@ An additional attractive element of Naive Bayes in this application is its relat
 
 ## Presentation/Dashboard
 
-- [Google slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
+- [Presentation slides](https://docs.google.com/presentation/d/1OiE5D7VYmm6KsXCUUHtG2Hv3Lr9HjXpQY_gYK4ltiK4/edit?usp=sharing)
+
+The dashboard is intended to be used to supplement the machine learning model to further analyze length of stay. The user is able to filter by the dog's sex, age group, breed type, size and color to see a detailed analysis of median length of stay. This allows the user to better interpret the machine learning model and see trends from the data to make decisions on how to better allocate resources. For example, upon intake the shelter runs the dog description through the model and gets an outcome that the dog is likely to be a prolonged stay, the shelter can use the dashboard to see a length of stay analysis based on past intakes of similar dogs.
+
 - [Dashboard](https://public.tableau.com/app/profile/jordan.thomas5085/viz/LengthofStayDashboard_16447681694690/LOSDashboard?publish=yes)
 
 ## Challenges
