@@ -82,12 +82,14 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
 
   * We included only encounters where the dog left the shelter, either to their previous home, a new one, or transfer to a rescue organization.
 
-- Tested 3 algorithms (accuracy, precision for normal stay, recall for prolonged stay)
+- Data was split into training and testing sets using the default 75/25 split with scikit-learn.
+
+- We tested 3 algorithms. (accuracy, precision for normal stay, recall for prolonged stay)
   * Random Forest (acc: 0.73, prec: 0.78, rec: 0.30)
   * Bernoulli Naive Bayes (acc: 0.70, prec: 0.79, rec: 0.39)
   * Gradient Boosting Classifier (acc: 0.76, prec: 0.78, rec: 0.23)
  
-- Resampling using SMOTE and SMOTTEEN: Outcome is not rare enough for resampling to be necessary, but tried to boost recall for the minority class. While recall for the minority class is improved, it comes at great cost to other performance metrics, and overall results in substantially reduced accuracy.
+- Resampling using SMOTE and SMOTTEEN: Outcome is not rare enough for resampling to be necessary, but we tried to boost recall for the minority class. While recall for the minority class improved, it comes at great cost to other performance metrics, and overall results in substantially reduced accuracy.
 
 - Other feature selection/extraction techniques: There were 62 features, derived from 7 intake fields. We looked at options to reduce that number without losing information. None of these yielded any improvement in model performance.
   * Consolidating rare observations for categorical variables with many options. Much of this was done in preprocessing with regards to breed and color. During the tuning process we tried grouping rare conditions and intake types. 
