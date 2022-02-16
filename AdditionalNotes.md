@@ -2,16 +2,17 @@
 
 ## Encounter Outcome
 
-Code is in OutcomeModeling.ipynb
+
+[Code](Notebook/OutcomeModeling.ipynb)
 
 - Our first model addressed classification of the outcome of the encounter, starting with 5 primary categories. 
   
 - Two models were tested with the 5 category outcome: Random Forest, and Gradient Boosting Classifier.
 Both models had accuracy scores of ~0.6. 
 
-      Although we had anticipated a distinction between adoptions and transfer, examining the confusion matrix, both models had particular issues with classifying transfers as adoptions. 
+  * Although we had anticipated a distinction between adoptions and transfer, examining the confusion matrix, both models had particular issues with classifying transfers as adoptions. 
 
-      Considering that our multiclass outcome is challenging for modeling, we decided to consolidate the five outcomes into three, combining adoptions with transfers, and euthanasia with died. 
+  * Considering that our multiclass outcome is challenging for modeling, we decided to consolidate the five outcomes into three, combining adoptions with transfers, and euthanasia with died. 
 
 - The 5 primary categories for outcome were then consolidated into 3: Adoption/Transfer, Return to Owner, and Death.
  
