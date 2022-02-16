@@ -96,6 +96,8 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
   * Subset of features based on univariate signal and/or a priori hypothesis
   * Principal components analysis. Thirty four principal components were required to account for 90% of the variance, and model performance was poorer. 
 
+- For Random Forest and Naive Bayes, feature importance and permutation feature importance, respectively, were calculated and plotted. 
+
 - The goal of this model predicting long stays is to provide shelter staff with insight into which dogs are at risk of lengthy stays, so that interventions designed to move dogs out of the shelter faster can be focused on the dogs most likely to benefit.
 
 - We have chosen the Naive Bayes model, without resampling, as our final model. While the overall accuracy is slightly lower than Random Forest or Gradient Boosting Classifier, the Naive Bayes model results in high precision for the majority class (0.79), and highest recall for the minority class without resampling (0.39). These are the two metrics which we prioritize.
