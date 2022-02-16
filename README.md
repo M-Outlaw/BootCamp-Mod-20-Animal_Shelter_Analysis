@@ -1,7 +1,6 @@
 # BootCamp-Mod-20-Animal_Shelter_Analysis
 
 ## Project Outline
-We will be analyzing animal shelter intake and outake data from Austin, TX with the initial goal to predict the outcome for a dog who enters the shelter.
 
 Our project is to analyze intake and outcome data from the Austin Texas Animal Center to identify, at intake, encounters at risk for resulting in prolonged length of stays for dogs at the shelter.
 
