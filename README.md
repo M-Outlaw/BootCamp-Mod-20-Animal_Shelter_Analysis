@@ -105,6 +105,8 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
 - The model has provided a reduced number of at risk encounters, allowing more efficient use of resources on interventions.
 - An additional attractive element of Naive Bayes in this application is its relative ease of interpretation.
 
+[Final Model Code](Notebook/FinalModel.ipynb)
+
 <h3 align="center"><b>Naive Bayes Model</b></h3>
 <p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-20-Animal_Shelter_Analysis/blob/main/Graphics/NB_Confusion_Matrix.png" width="283" height="150"/>&nbsp;<img src="https://github.com/M-Outlaw/BootCamp-Mod-20-Animal_Shelter_Analysis/blob/main/Graphics/NB_Classification_Report.png" width="459" height="223"/></p>
 
