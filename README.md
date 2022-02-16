@@ -77,7 +77,9 @@ Created a new database and used the built-in “to_sql ()” method in Pandas to
   
 - We explored two classification problems from the data: Outcome of the encounter, and length of stay in the shelter, ultimately choosing length of stay.
   * Prolonged Stays in the shelter are defined as those lasting 13 days or more. This point marks the 75th percentile of length of stay, and the beginning of the tail of the distribution.
-![length of stay distribution from Google Slides](Resources/Distribution.png)
+ 
+<p align="center"><img src="https://github.com/M-Outlaw/BootCamp-Mod-20-Animal_Shelter_Analysis/blob/main/Graphics/Length_of_Stay.png" width="722" height="400"/></p>
+
   * We included only encounters where the dog left the shelter, either to their previous home, a new one, or transfer to a rescue organization.
 
 - Tested 3 algorithms (accuracy, precision for normal stay, recall for prolonged stay)
